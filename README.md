@@ -8,37 +8,38 @@ This project reads raw FIFA World Cup match data from a CSV file, performs data 
 
 ## Project Structure
 
+```
 Football_WC_Project/
 ├── src/
-│    ├── main/
-│    │    ├── java/com/fifa/
-│    │    │    ├── model/
-│    │    │    │    └── MatchRecord.java
-│    │    │    ├── reader/
-│    │    │    │    └── CsvMatchReader.java
-│    │    │    ├── util/
-│    │    │    │    └── CleaningUtils.java
-│    │    │    ├── cleaner/
-│    │    │    │    └── DataCleaner.java
-│    │    │    ├── transformer/
-│    │    │    │    └── DataTransformer.java
-│    │    │    ├── validator/
-│    │    │    │    └── RecordValidator.java
-│    │    │    ├── aggregator/
-│    │    │    │    └── MatchAggregator.java
-│    │    │    ├── writer/
-│    │    │    │    └── PostgresWriter.java
-│    │    │    └── pipeline/
-│    │    │         └── DataPipeline.java
-│    │    └── resources/
-│    │         ├── FIFA_WC_Raw_Dataset.csv
-│    │         └── logback.xml
-│    └── test/
-│         └── java/com/fifa/
-│              └── PipelineTest.java
+│   ├── main/
+│   │   ├── java/com/fifa/
+│   │   │   ├── model/
+│   │   │   │   └── MatchRecord.java
+│   │   │   ├── reader/
+│   │   │   │   └── CsvMatchReader.java
+│   │   │   ├── util/
+│   │   │   │   └── CleaningUtils.java
+│   │   │   ├── cleaner/
+│   │   │   │   └── DataCleaner.java
+│   │   │   ├── transformer/
+│   │   │   │   └── DataTransformer.java
+│   │   │   ├── validator/
+│   │   │   │   └── RecordValidator.java
+│   │   │   ├── aggregator/
+│   │   │   │   └── MatchAggregator.java
+│   │   │   ├── writer/
+│   │   │   │   └── PostgresWriter.java
+│   │   │   └── pipeline/
+│   │   │       └── DataPipeline.java
+│   │   └── resources/
+│   │       ├── FIFA_WC_Raw_Dataset.csv
+│   │       └── logback.xml
+│   └── test/
+│       └── java/com/fifa/
+│           └── PipelineTest.java
 ├── .gitignore
 └── pom.xml
-
+```
 
 ## Use Cases Implemented
 
